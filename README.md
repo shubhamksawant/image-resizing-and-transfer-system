@@ -1,4 +1,7 @@
 # AWS-based Automated Image Resizing and Transfer System
+
+This project aims to create an efficient system for managing images on AWS. The objective is to automate image processing tasks, including resizing and transferring images to storage, while ensuring stakeholders receive timely notifications. We leverage key AWS services like Lambda, S3, and SNS to orchestrate this workflow seamlessly.
+
 ### Architecture 
 ![Architecture](/Architecture.drawio.png)
 
