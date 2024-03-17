@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" modified="2024-03-17T10:05:51.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cpEaM1EPK7MEzxEStqPS" version="24.0.7" type="device">
+  <diagram name="Page-1" id="kj8KgiRkGo16FWxnmH3g">
+    <mxGraphModel dx="2284" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="60" width="1100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-1" value="AWS Cloud" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#AAB7B8;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="540" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-5" value="AWS-based Automated Image Resizing and Transfer System" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-9" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Automate image processing by resizing and optimizing images upon upload to S3.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ensure secure storage by storing processed images in a reliable S3 bucket.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Design a scalable architecture to efficiently handle varying image processing demands.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Stay informed about image processing progress through SNS notifications.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Utilize AWS serverless technologies to minimize operational costs for a cost-effective solution.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="800" y="120" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-10" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="150" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-11" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="145" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-12" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="347" y="150" width="54" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="141.75" width="60" height="58.25" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-15" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
+          <mxGeometry x="720" y="158.5" width="50" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="TrRercAt3Ysnq8iiSqFU-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="175" as="sourcePoint" />
+            <mxPoint x="150" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-20" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="TrRercAt3Ysnq8iiSqFU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-25" value="User upload image&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TrRercAt3Ysnq8iiSqFU-19">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrRercAt3Ysnq8iiSqFU-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247" y="174.5" as="sourcePoint" />
+            <mxPoint x="347" y="174.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-24" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="TrRercAt3Ysnq8iiSqFU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-27" value="Trigger Lambda" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TrRercAt3Ysnq8iiSqFU-23">
+          <mxGeometry x="0.0072" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TrRercAt3Ysnq8iiSqFU-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="170.5" as="sourcePoint" />
+            <mxPoint x="537" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-29" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="TrRercAt3Ysnq8iiSqFU-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-30" value="Trigger Lambda" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TrRercAt3Ysnq8iiSqFU-28">
+          <mxGeometry x="0.0072" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="TrRercAt3Ysnq8iiSqFU-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="480" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-36" value="Sends Resize Image" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="TrRercAt3Ysnq8iiSqFU-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Source Bucket" placeholders="1" name="Variable" id="TrRercAt3Ysnq8iiSqFU-38">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="125" y="201" width="110" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Destination Bucket" placeholders="1" name="Variable" id="TrRercAt3Ysnq8iiSqFU-39">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="315" y="360" width="130" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="SNS Topic" placeholders="1" name="Variable" id="TrRercAt3Ysnq8iiSqFU-40">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="550" y="191.5" width="80" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Lambda Function" placeholders="1" name="Variable" id="TrRercAt3Ysnq8iiSqFU-41">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="331" y="194" width="100" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-43" value="&lt;h2 style=&quot;box-sizing: border-box; margin-top: 24px; margin-bottom: 16px; font-weight: var(--base-text-weight-semibold, 600); line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted)); color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; text-wrap: wrap; background-color: rgb(255, 255, 255); font-size: 16px;&quot; dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Features:&lt;/font&gt;&lt;/h2&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="105" width="140" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="User" placeholders="1" name="Variable" id="TrRercAt3Ysnq8iiSqFU-44">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="-20" y="205" width="80" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email" placeholders="1" name="Variable" id="TrRercAt3Ysnq8iiSqFU-45">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="700" y="190" width="80" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="170.88" as="sourcePoint" />
+            <mxPoint x="720" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-47" value="Label" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="TrRercAt3Ysnq8iiSqFU-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrRercAt3Ysnq8iiSqFU-48" value="Notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TrRercAt3Ysnq8iiSqFU-46">
+          <mxGeometry x="0.0072" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
