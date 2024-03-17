@@ -1,0 +1,5 @@
+.terraform.lock.hcl
+.terraform/
+terraform.tfstate
+*.zip
+AWS-based Automated Image Resizing and Transfer System.drawio
